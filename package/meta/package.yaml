@@ -1,0 +1,14 @@
+name: influxdb
+vendor: Chen-Han Hsiao (Stanley) <stanley.hsiao@canonical.com>
+architecture: [amd64, armhf]
+icon: meta/influxdb.jpg
+version: 0.9.4.2-1
+services:
+ - name: webserver
+   description: "Influxdb"
+   start: start-service.sh
+   caps:
+    - networking
+    - network-service
+   syscalls:
+    - fchown
