@@ -1,4 +1,4 @@
-name: demo-influxdb
+name: influxdb
 vendor: Chen-Han Hsiao (Stanley) <stanley.hsiao@canonical.com>
 architectures: [amd64, armhf]
 icon: meta/influxdb.jpg
