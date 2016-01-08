@@ -2,7 +2,7 @@ name: influxdb
 vendor: Chen-Han Hsiao (Stanley) <stanley.hsiao@canonical.com>
 architectures: [amd64, armhf]
 icon: meta/influxdb.jpg
-version: 0.9.4.2-2
+version: 0.10.0-1
 services:
   - name: webserver
     description: "Influxdb"
@@ -14,4 +14,4 @@ services:
           negotiable: no
     security-override:
       seccomp: meta/influxdb.filter
-      apparmor: meta/influxdb.apparmor 
+      apparmor: meta/influxdb.apparmor
